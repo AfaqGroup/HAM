@@ -1,0 +1,22 @@
+# السماح لجميع محركات البحث التقليدية بالفهرسة (Google, Bing, Yahoo)
+User-agent: *
+Allow: /
+
+# السماح لمحركات بحث الذكاء الاصطناعي بالفهرسة لدعم الـ AEO (Perplexity, ChatGPT, Claude)
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+# تحديد رابط خريطة الموقع لمحركات البحث
+Sitemap: https://afaqgroup.github.io/HAM/sitemap.xml
